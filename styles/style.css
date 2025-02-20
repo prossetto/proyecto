@@ -61,3 +61,8 @@
   border: solid 2px rgb(191, 251, 255);
   border-radius: 5px;
 }
+.formu {
+    margin: 20px;
+    padding: 20px;
+    border: solid blue 5px;
+}

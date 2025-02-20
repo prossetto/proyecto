@@ -53,13 +53,46 @@
         <form action="" method="post">
             <fieldset>
                 <legend>Formulario</legend>
-                <ul>
-                    <li><label for="name">Nombre</label><input type="text" name="Nombre" id="Nombre_Completo" placeholder="Roberto Fernández"></li>
-                    <li><label for="Mail">Mail de contacto</label><input type="email" name="Mail" id="Mail_de_contacto" placeholder="****@****.com"></li>
-                    <li><label for="Comentario">Comentarios</label><textarea name="Comentarios" id="Comentario" placeholder="Escriba aquí su comentario"></textarea></li>
-                    <li><label for="Aceptación">Acepto que me contacten</label><input type="checkbox" name="Conformidad" id="Conformidad"></li>
-                    <li><button type="submit">Enviar Comentarios</button></li>
-                </ul>
+                <form class="row g-3 formu">
+                    <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                        </div>
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                        </div>
+                      </div>
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" placeholder="********************@*****************.com" aria-label="Email" id="inputEmail4">
+                    </div>  
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">País</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Elija su nacionalidad</option>
+                        <option value="Argentina">Argentina </option>
+                        <option value="Brasil">Brasil </option>
+                        <option value="Chile">Chile </option>
+                        <option value="Uruguay">Uruguay </option>
+                        <option value="Colombia">Colombia </option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                  </form>
             </fieldset>
         </form>
         
