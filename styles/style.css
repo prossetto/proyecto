@@ -34,8 +34,8 @@
   }
 .pie{
     display: flex;
-    justify-content: right;
-    background: linear-gradient(to bottom, #1995AD, #A1d6e2);
+    justify-content: center;
+    background: linear-gradient(to top, #1995AD, #A1d6e2);
 }
 .pqe {
     margin: 20px;
@@ -78,12 +78,29 @@ fieldset{
 }
 .btnsend{
     margin: 20px;
-    border: 1px  rgb(191, 251, 255);
-    background-color: #abdde6;
+    border: solid 1px #1995AD;
+    background-color: #A1d6e2;
+    color: #09505e;
 }
 .btnsend:hover{
-    background: linear-gradient( to right, #abdde6, #e6fcfc)
+    background: linear-gradient( to right, #abdde6, #e6fcfc);
+    color: #09505e;
+    border: solid 1px #1995AD;
 }
 .btnsend:active{
-    background: linear-gradient( to left, #abdde6, #e6fcfc)
+    background: linear-gradient( to left, #abdde6, #e6fcfc);
+    color: #09505e;
+    border: solid 1px #1995AD;
+}
+.cvdatos{
+    display: block;
+    justify-items: center;
+    padding: 20px;
+}
+.gridcontacto{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.campform{
+    border: solid 0.5px #A1d6e2;
 }
