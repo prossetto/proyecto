@@ -48,25 +48,24 @@
     <main>
         <h1 class="text-center">Laboratorio Rossetto</h1>
         <h2 class="text-center"><em>30 años de compromiso con la salud</em></h2>
-        
-        <h3><strong>Formulario de Contacto</strong></h3>
-        <form action="" method="post">
+        <section>
+        <h3 class="text-center"><strong>Formulario de Contacto</strong></h3>
+        <form action="" method="post" class="itemform">
             <fieldset>
-                <legend>Formulario</legend>
-                <form class="row g-3 formu">
+                <form class="row g-3">
                     <div class="row">
-                        <div class="col">
-                          <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                        <div class="col camp">
+                          <input type="text" class="form-control " placeholder="Nombre" aria-label="Nombre">
                         </div>
-                        <div class="col">
+                        <div class="col camp">
                           <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
                         </div>
                       </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 camp">
                       <label for="inputEmail4" class="form-label">Email</label>
                       <input type="email" class="form-control" placeholder="********************@*****************.com" aria-label="Email" id="inputEmail4">
                     </div>  
-                    <div class="col-md-4">
+                    <div class="col-md-4 camp">
                       <label for="inputState" class="form-label">País</label>
                       <select id="inputState" class="form-select">
                         <option selected>Elija su nacionalidad</option>
@@ -77,25 +76,25 @@
                         <option value="Colombia">Colombia </option>
                       </select>
                     </div>
-                    <div class="col-md-2">
-                      <label for="inputZip" class="form-label">Zip</label>
-                      <input type="text" class="form-control" id="inputZip">
-                    </div>
+                    <div class="mb-3 camp">
+                        <label for="exampleFormControlTextarea1" class="form-label">Comentrarios</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
                     <div class="col-12">
-                      <div class="form-check">
+                      <div class="form-check camp">
                         <input class="form-check-input" type="checkbox" id="gridCheck">
                         <label class="form-check-label" for="gridCheck">
-                          Check me out
+                          Acepto compartir mis datos
                         </label>
                       </div>
                     </div>
-                    <div class="col-12">
-                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                      <button type="submit" class="btn btn-info btnsend">Enviar</button>
                     </div>
                   </form>
             </fieldset>
         </form>
-        
+        </section>
         <h3><strong>Trabaja con nosotros</strong></h3>
         <p>Carga tu currículum para formar parte de Laboratorio Rossetto.</p>
         <label for="CV"><input type="file" name="CV" id="CV"></label>

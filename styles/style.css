@@ -66,3 +66,24 @@
     padding: 20px;
     border: solid blue 5px;
 }
+.itemform {
+    margin:  20px;
+}
+.camp {
+    margin: 10px;
+}
+fieldset{
+    border: solid lightblue 2px;
+    border-radius: 5px;
+}
+.btnsend{
+    margin: 20px;
+    border: 1px  rgb(191, 251, 255);
+    background-color: #abdde6;
+}
+.btnsend:hover{
+    background: linear-gradient( to right, #abdde6, #e6fcfc)
+}
+.btnsend:active{
+    background: linear-gradient( to left, #abdde6, #e6fcfc)
+}
