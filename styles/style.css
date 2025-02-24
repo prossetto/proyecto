@@ -108,3 +108,13 @@ fieldset{
 p,h1,h2,h3,h4,h5{
    font-family: "Poppins", serif;
 }
+@media (max-width: 1400px) {
+.imgtxt {
+  width: 100%;
+  }
+.imgfrontlab{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+}
