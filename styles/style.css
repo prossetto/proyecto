@@ -118,3 +118,9 @@ p,h1,h2,h3,h4,h5{
   justify-content: center;
 }
 }
+.titledev{
+  background: linear-gradient( to right, #abdde6, #e6fcfc);
+  border: 1px #1995AD solid;
+  text-align: center;
+  text-decoration: underline;
+}
