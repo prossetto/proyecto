@@ -1,9 +1,4 @@
-.bg-body-tertiary2{
-    background: linear-gradient(to bottom, #1995AD, #A1d6e2) ;
-}
-.activo:hover{
-    text-decoration: underline;
-}
+
 .carousel-img-container {
     width: 100%;
     height: 400px; 
@@ -27,49 +22,11 @@
     z-index: 10; /* Pone que la imagen esté por encima del carrusel */
     opacity: 0.8;
   }
-.pie{
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(to top, #1995AD, #A1d6e2);
-}
-.pqe {
-    margin: 20px;
-}
-.formu {
-    margin: 20px;
-    padding: 20px;
-    border: solid blue 5px;
-}
-.itemform {
-    margin:  20px;
-}
-.camp {
-    margin: 10px;
-}
-fieldset{
-    border: solid lightblue 2px;
-    border-radius: 5px;
-}
-.btnsend{
-    margin: 20px;
-    border: solid 1px #1995AD;
-    background-color: #A1d6e2;
-    color: #09505e;
-}
-.btnsend:hover{
-    background: linear-gradient( to right, #abdde6, #e6fcfc);
-    color: #09505e;
-    border: solid 1px #1995AD;
-}
 
 
-@media (max-width: 1400px) {
-.imgtxt {
-  width: 100%;
-  }
-.imgfrontlab{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-}
+
+
+
+
+
+
