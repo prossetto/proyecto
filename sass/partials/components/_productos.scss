@@ -1,0 +1,21 @@
+.desplegable{
+    border: solid 2px;
+    border-color: rgb(182, 216, 228) ;
+    border-radius: 5;
+    background-color:#fdfdff;
+  }
+  .desplegable:hover{
+    background: linear-gradient( to right, #abdde6, #f4f5f5)
+  }
+  .desplegado{
+    background: linear-gradient( to right, #abdde6, #f4f5f5)
+  }
+  .accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  .card-img-top{
+    padding: 20px;
+    border: solid 2px rgb(191, 251, 255);
+    border-radius: 5px;
+  }
