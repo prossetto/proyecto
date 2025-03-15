@@ -139,6 +139,13 @@ fieldset {
   background: linear-gradient(to right, #abdde6, #f4f5f5);
 }
 
+.imagen-desarrollos {
+  height: 200px;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .desplegable {
   border: solid 2px;
   border-color: rgb(182, 216, 228);
