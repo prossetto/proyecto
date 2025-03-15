@@ -13,10 +13,10 @@
     object-fit: cover; /* ajusta la imagen sin distorsionarla */
   }
   .overlay-image {
-    position: absolute; /* Posiciona la imagen en relación al contenedor del carrusel */
-    top: 50%; /* Centré la imagen verticalmente */
+    position: absolute; /* posiciona la imagen en relación al contenedor del carrusel */
+    top: 50%; /* centré la imagen verticalmente */
     left: 50%; /* Centré la imagen horizontalmente */
-    transform: translate(-50%, -50%); /* Ajusta la imagen para que esté centrada exactamente */
+    transform: translate(-50%, -50%); /* ajusta la imagen para que esté centrada exactamente */
     width: 400px; 
     height: auto; 
     z-index: 10; /* Pone que la imagen esté por encima del carrusel */

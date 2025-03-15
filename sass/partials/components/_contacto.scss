@@ -1,5 +1,5 @@
 .btnsend:active{
-    background: linear-gradient( to left, #abdde6, #e6fcfc);
+    background: $revgradiente;
     color: #09505e;
     border: solid 1px #1995AD;
 }
@@ -20,15 +20,17 @@
     border: solid 1px #1995AD;
     background-color: #A1d6e2;
     color: #09505e;
-}
-.btnsend:hover{
-    background: linear-gradient( to right, #abdde6, #e6fcfc);
-    color: #09505e;
     border: solid 1px #1995AD;
+    border-radius: $bordes;
+    &:hover{
+        background: $gradiente;
+        color: #09505e;
+        border: solid 1px #1995AD;
+    }
 }
 fieldset{
     border: solid lightblue 2px;
-    border-radius: 5px;
+    border-radius: $bordes;
 }
 .camp {
     margin: 10px;

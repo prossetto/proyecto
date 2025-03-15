@@ -1,21 +1,42 @@
 .desplegable{
     border: solid 2px;
     border-color: rgb(182, 216, 228) ;
-    border-radius: 5;
+    border-radius: 5px;
     background-color:#fdfdff;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .desplegable:hover{
-    background: linear-gradient( to right, #abdde6, #f4f5f5)
+    background: $gradiente;
   }
   .desplegado{
-    background: linear-gradient( to right, #abdde6, #f4f5f5)
+    background: $gradiente;
   }
   .accordion-button:focus {
     box-shadow: none;
     outline: none;
   }
-  .card-img-top{
-    padding: 20px;
-    border: solid 2px rgb(191, 251, 255);
-    border-radius: 5px;
+  .card-body{
+    width: $wcards;
   }
+  .card-img-top{
+    margin: 1px;
+    border-radius: $bordes;
+    width: $wcards;
+    height: auto;
+  }
+  .card-title{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .card-text{
+    color:rgb(87, 87, 87) ;
+    text-align: center;
+  }
+  .card{
+    width: 310px;
+    height: auto;
+    border: solid 2px rgb(207, 207, 207);
+    border-radius: $bordes;
+  }
+  

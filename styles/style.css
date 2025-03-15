@@ -25,10 +25,10 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .overlay-image {
-  position: absolute; /* Posiciona la imagen en relación al contenedor del carrusel */
-  top: 50%; /* Centré la imagen verticalmente */
+  position: absolute; /* posiciona la imagen en relación al contenedor del carrusel */
+  top: 50%; /* centré la imagen verticalmente */
   left: 50%; /* Centré la imagen horizontalmente */
-  transform: translate(-50%, -50%); /* Ajusta la imagen para que esté centrada exactamente */
+  transform: translate(-50%, -50%); /* ajusta la imagen para que esté centrada exactamente */
   width: 400px;
   height: auto;
   z-index: 10; /* Pone que la imagen esté por encima del carrusel */
@@ -61,17 +61,18 @@ p, h1, h2, h3, h4, h5 {
   border: solid 1px #1995AD;
   background-color: #A1d6e2;
   color: #09505e;
+  border: solid 1px #1995AD;
+  border-radius: 8px;
 }
-
 .btnsend:hover {
-  background: linear-gradient(to right, #abdde6, #e6fcfc);
+  background: linear-gradient(to right, #abdde6, #f4f5f5);
   color: #09505e;
   border: solid 1px #1995AD;
 }
 
 fieldset {
   border: solid lightblue 2px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .camp {
@@ -89,17 +90,36 @@ fieldset {
 }
 
 .titledev {
-  background: linear-gradient(to right, #abdde6, #e6fcfc);
+  background: linear-gradient(to right, #abdde6, #f4f5f5);
   border: 1px #1995AD solid;
   text-align: center;
   text-decoration: underline;
 }
 
+.table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 20px;
+  text-align: center;
+}
+.table a {
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px #1995AD solid;
+  border-radius: 8px;
+}
+.table a:hover {
+  background: linear-gradient(to right, #abdde6, #f4f5f5);
+}
+
 .desplegable {
   border: solid 2px;
   border-color: rgb(182, 216, 228);
-  border-radius: 5;
+  border-radius: 5px;
   background-color: #fdfdff;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .desplegable:hover {
@@ -115,10 +135,32 @@ fieldset {
   outline: none;
 }
 
+.card-body {
+  width: 300px;
+}
+
 .card-img-top {
-  padding: 20px;
-  border: solid 2px rgb(191, 251, 255);
-  border-radius: 5px;
+  margin: 1px;
+  border-radius: 8px;
+  width: 300px;
+  height: auto;
+}
+
+.card-title {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.card-text {
+  color: rgb(87, 87, 87);
+  text-align: center;
+}
+
+.card {
+  width: 310px;
+  height: auto;
+  border: solid 2px rgb(207, 207, 207);
+  border-radius: 8px;
 }
 
 .pqe {
@@ -126,17 +168,27 @@ fieldset {
 }
 
 .bg-body-tertiary2 {
-  background: linear-gradient(to bottom, #1995AD, #A1d6e2);
+  background: radial-gradient(circle, #abdde6 10%, #f4f5f5 30%, #abdde6 50%);
 }
 
 .activo:hover {
   text-decoration: underline;
 }
 
-.pie {
+footer {
   display: flex;
   justify-content: center;
-  background: linear-gradient(to top, #1995AD, #A1d6e2);
+  background: radial-gradient(circle, #abdde6 10%, #f4f5f5 30%, #abdde6 50%);
+}
+
+.rs {
+  width: 50px;
+  height: 50px;
+}
+
+.titulos {
+  background: radial-gradient(circle, #abdde6 10%, #f4f5f5 30%, #abdde6 50%);
+  background-size: 100% 60px;
 }
 
 @media (max-width: 1400px) {
@@ -147,6 +199,13 @@ fieldset {
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+}
+@media (max-width: 800px) {
+  .table {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
   }
 }
 

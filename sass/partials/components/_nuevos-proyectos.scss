@@ -1,6 +1,23 @@
 .titledev{
-    background: linear-gradient( to right, #abdde6, #e6fcfc);
+    background: $gradiente;
     border: 1px #1995AD solid;
     text-align: center;
     text-decoration: underline;
+  }
+  .table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    text-align: center;
+            
+    a{
+        text-decoration: none;
+        text-transform:uppercase;
+        border: 1px #1995AD solid;
+        border-radius: $bordes;
+        &:hover{
+            background: $gradiente;
+        }
+    }
   }
