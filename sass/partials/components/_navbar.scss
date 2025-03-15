@@ -8,6 +8,6 @@
     border-radius: $bordes;
     }
     &:active{
-        color:#09505e;
+        color: map-get($map: $colors, $key: verde-borde );
     }
 }

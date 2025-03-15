@@ -6,23 +6,3 @@
     color: $txtc;
 }
 
-.btnsend, .btncv, .btninfo{
-    @include boton(solid 1px #1995AD, #A1d6e2  ,$bordes,5px,#09505e );
-    &:hover{
-        background: $gradiente;
-        color: #09505e;
-        border: solid 1px #1995AD;
-    }
-    &:active{
-        background: $revgradiente;
-        color: #09505e;
-        border: solid 1px #1995AD;
-    }
-    &:focus{
-        background: $gradiente;
-        color: #09505e;
-        border: solid 1px #1995AD;
-    }
-}
-
-

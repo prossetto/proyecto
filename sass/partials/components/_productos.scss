@@ -7,6 +7,11 @@
     margin-right: 5px;
     &:hover{
       background: $gradiente;
+      color: map-get($map: $colors, $key:verde-borde )
+    }
+    &:focus{
+      background: $gradiente;
+      color: map-get($map: $colors, $key:verde-borde )
     }
   }
   .desplegado{
@@ -30,7 +35,7 @@
     text-decoration: underline;
   }
   .card-text{
-    color:rgb(87, 87, 87);
+    color:map-get($map: $colors, $key:gris-texto );
     text-align: center;
   }
   .card{
@@ -39,4 +44,22 @@
     border: solid 2px rgb(207, 207, 207);
     border-radius: $bordes;
   }
+ .btninfo{
+    @include boton(solid 1px #1995AD, #A1d6e2  ,$bordes,5px,#09505e );
+    &:hover{
+        background: $gradiente;
+        color: #09505e;
+        border: solid 1px #1995AD;
+    }
+    &:active{
+        background: $revgradiente;
+        color: map-get($map: $colors, $key:verde-borde );
+        border: solid 1px #1995AD;
+    }
+    &:focus{
+        background: $revgradiente;
+        color: map-get($map: $colors, $key:verde-borde );
+        border: solid 1px #1995AD;
+    }
+}
   

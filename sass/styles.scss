@@ -1,7 +1,12 @@
-@import "partials/base/reset";
-@import "partials/utilities/variables";
+/*base*/
 @import "partials/base/reset";
 @import "partials/base/tipografia";
+/*utilities*/
+@import "partials/utilities/variables";
+@import "partials/utilities/maps";
+@import "partials/utilities/mixings";
+@import "partials/utilities/mediaquery";
+/*components*/
 @import "partials/components/home";
 @import "partials/components/contacto";
 @import "partials/components/nuevos-proyectos";
@@ -9,9 +14,9 @@
 @import "partials/components/quienes-somos";
 @import "partials/components/navbar";
 @import "partials/components/pieytop";
-@import "partials/utilities/maps";
-@import "partials/utilities/mixings";
-@import "partials/utilities/mediaquery";
+
+
+
 
 
 
