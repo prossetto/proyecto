@@ -1,13 +1,13 @@
 .desplegable{
     border: solid 2px;
     border-color: rgb(182, 216, 228) ;
-    border-radius: 5px;
+    border-radius: $bordes;
     background-color:#fdfdff;
     margin-left: 5px;
     margin-right: 5px;
-  }
-  .desplegable:hover{
-    background: $gradiente;
+    &:hover{
+      background: $gradiente;
+    }
   }
   .desplegado{
     background: $gradiente;
@@ -30,11 +30,11 @@
     text-decoration: underline;
   }
   .card-text{
-    color:rgb(87, 87, 87) ;
+    color:rgb(87, 87, 87);
     text-align: center;
   }
   .card{
-    width: 310px;
+    width: $wcards;
     height: auto;
     border: solid 2px rgb(207, 207, 207);
     border-radius: $bordes;

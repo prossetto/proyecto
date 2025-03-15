@@ -1,8 +1,3 @@
-.btnsend:active{
-    background: $revgradiente;
-    color: #09505e;
-    border: solid 1px #1995AD;
-}
 .cvdatos{
     display: block;
     justify-items: center;
@@ -15,19 +10,7 @@
 .campform{
     border: solid 0.5px #A1d6e2;
 }
-.btnsend{
-    margin: 20px;
-    border: solid 1px #1995AD;
-    background-color: #A1d6e2;
-    color: #09505e;
-    border: solid 1px #1995AD;
-    border-radius: $bordes;
-    &:hover{
-        background: $gradiente;
-        color: #09505e;
-        border: solid 1px #1995AD;
-    }
-}
+
 fieldset{
     border: solid lightblue 2px;
     border-radius: $bordes;

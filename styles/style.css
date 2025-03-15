@@ -5,8 +5,16 @@
   box-sizing: border-box;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 p, h1, h2, h3, h4, h5 {
   font-family: "Poppins", serif;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .carousel-img-container {
@@ -35,12 +43,6 @@ p, h1, h2, h3, h4, h5 {
   opacity: 0.8;
 }
 
-.btnsend:active {
-  background: linear-gradient(to left, #abdde6, #e6fcfc);
-  color: #09505e;
-  border: solid 1px #1995AD;
-}
-
 .cvdatos {
   display: block;
   justify-items: center;
@@ -54,20 +56,6 @@ p, h1, h2, h3, h4, h5 {
 
 .campform {
   border: solid 0.5px #A1d6e2;
-}
-
-.btnsend {
-  margin: 20px;
-  border: solid 1px #1995AD;
-  background-color: #A1d6e2;
-  color: #09505e;
-  border: solid 1px #1995AD;
-  border-radius: 8px;
-}
-.btnsend:hover {
-  background: linear-gradient(to right, #abdde6, #f4f5f5);
-  color: #09505e;
-  border: solid 1px #1995AD;
 }
 
 fieldset {
@@ -108,6 +96,7 @@ fieldset {
   text-transform: uppercase;
   border: 1px #1995AD solid;
   border-radius: 8px;
+  color: #09505e;
 }
 .table a:hover {
   background: linear-gradient(to right, #abdde6, #f4f5f5);
@@ -116,12 +105,11 @@ fieldset {
 .desplegable {
   border: solid 2px;
   border-color: rgb(182, 216, 228);
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: #fdfdff;
   margin-left: 5px;
   margin-right: 5px;
 }
-
 .desplegable:hover {
   background: linear-gradient(to right, #abdde6, #f4f5f5);
 }
@@ -136,13 +124,13 @@ fieldset {
 }
 
 .card-body {
-  width: 300px;
+  width: 310px;
 }
 
 .card-img-top {
   margin: 1px;
   border-radius: 8px;
-  width: 300px;
+  width: 310px;
   height: auto;
 }
 
@@ -173,6 +161,11 @@ fieldset {
 
 .activo:hover {
   text-decoration: underline;
+  border: 1px #abdde6 solid;
+  border-radius: 8px;
+}
+.activo:active {
+  color: #09505e;
 }
 
 footer {
@@ -189,6 +182,29 @@ footer {
 .titulos {
   background: radial-gradient(circle, #abdde6 10%, #f4f5f5 30%, #abdde6 50%);
   background-size: 100% 60px;
+}
+
+.btnsend, .btncv, .btninfo {
+  border: solid 1px #1995AD;
+  background-color: #A1d6e2;
+  border-radius: 8px;
+  margin: 5px;
+  color: #09505e;
+}
+.btnsend:hover, .btncv:hover, .btninfo:hover {
+  background: linear-gradient(to right, #abdde6, #f4f5f5);
+  color: #09505e;
+  border: solid 1px #1995AD;
+}
+.btnsend:active, .btncv:active, .btninfo:active {
+  background: linear-gradient(to left, #abdde6, #e6fcfc);
+  color: #09505e;
+  border: solid 1px #1995AD;
+}
+.btnsend:focus, .btncv:focus, .btninfo:focus {
+  background: linear-gradient(to right, #abdde6, #f4f5f5);
+  color: #09505e;
+  border: solid 1px #1995AD;
 }
 
 @media (max-width: 1400px) {

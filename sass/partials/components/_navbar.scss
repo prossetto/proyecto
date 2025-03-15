@@ -1,6 +1,13 @@
 .bg-body-tertiary2{
     background: $circgrad;
 }
-.activo:hover{
+.activo{
+    &:hover{
     text-decoration: underline;
+    border: 1px #abdde6 solid;
+    border-radius: $bordes;
+    }
+    &:active{
+        color:#09505e;
+    }
 }
