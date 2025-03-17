@@ -1,6 +1,6 @@
 @mixin boton ($brd,$bgndc,$brdr,$margin,$txtc){
     border: $brd;
-    background-color: $bgndc;
+    background: $bgndc;
     border-radius: $brdr;
     margin:$margin;
     color: $txtc;

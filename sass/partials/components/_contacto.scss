@@ -27,11 +27,12 @@ fieldset{
     margin:  20px;
 }
 .btnsend, .btncv{
-    @include boton(solid 1px #1995AD, #A1d6e2  ,$bordes,5px,#09505e );
+    @include boton(solid 1px #1995AD, $gradiente  ,$bordes,5px,#09505e );
     &:hover{
-        background: $gradiente;
+        background: $revgradiente;
         color: #09505e;
         border: solid 1px #1995AD;
+        transform: translate(0px,2px);
     }
     &:active{
         background: $revgradiente;

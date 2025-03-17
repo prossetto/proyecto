@@ -6,8 +6,21 @@
     text-decoration: underline;
     border: 1px #abdde6 solid;
     border-radius: $bordes;
+    animation: botonvbr 1s linear 0s infinite normal ;
     }
     &:active{
         color: map-get($map: $colors, $key: verde-borde );
     }
+}
+@keyframes aparicion-logo{
+    0%{opacity: 0;}
+    20%{opacity: 0.2;}
+    40%{opacity: 0.4;}
+    60%{opacity: 0.6;}
+    80%{opacity: 0.8;}
+    100%{opacity: 1;}
+}
+.logoapear{
+    animation: aparicion-logo 1.5s linear 0s 1 normal;
+   
 }

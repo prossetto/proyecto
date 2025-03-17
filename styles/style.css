@@ -54,7 +54,11 @@ p, h1, h2, h3, h4, h5 {
   width: 400px;
   height: auto;
   z-index: 10; /* Pone que la imagen esté por encima del carrusel */
-  opacity: 0.8;
+  opacity: 0.5;
+}
+
+.carousel-item img {
+  height: 500px;
 }
 
 .cvdatos {
@@ -93,15 +97,16 @@ fieldset {
 
 .btnsend, .btncv {
   border: solid 1px #1995AD;
-  background-color: #A1d6e2;
+  background: linear-gradient(to right, #abdde6, #f4f5f5);
   border-radius: 8px;
   margin: 5px;
   color: #09505e;
 }
 .btnsend:hover, .btncv:hover {
-  background: linear-gradient(to right, #abdde6, #f4f5f5);
+  background: linear-gradient(to left, #abdde6, #e6fcfc);
   color: #09505e;
   border: solid 1px #1995AD;
+  transform: translate(0px, 2px);
 }
 .btnsend:active, .btncv:active {
   background: linear-gradient(to left, #abdde6, #e6fcfc);
@@ -202,15 +207,16 @@ fieldset {
 
 .btninfo {
   border: solid 1px #1995AD;
-  background-color: #A1d6e2;
+  background: linear-gradient(to right, #abdde6, #f4f5f5);
   border-radius: 8px;
   margin: 5px;
   color: #09505e;
 }
 .btninfo:hover {
-  background: linear-gradient(to right, #abdde6, #f4f5f5);
+  background: linear-gradient(to left, #abdde6, #e6fcfc);
   color: #09505e;
   border: solid 1px #1995AD;
+  transform: translate(0px, 2px);
 }
 .btninfo:active {
   background: linear-gradient(to left, #abdde6, #e6fcfc);
@@ -235,9 +241,34 @@ fieldset {
   text-decoration: underline;
   border: 1px #abdde6 solid;
   border-radius: 8px;
+  animation: botonvbr 1s linear 0s infinite normal;
 }
 .activo:active {
   color: #09505e;
+}
+
+@keyframes aparicion-logo {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.logoapear {
+  animation: aparicion-logo 1.5s linear 0s 1 normal;
 }
 
 footer {
